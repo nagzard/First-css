@@ -21,6 +21,8 @@ body    {
     margin: 0;
     font-family: 'Roboto';
     font-style: normal;
+    font-size: 18px;
+    line-height: 1.4;
 }
 a   {
     text-decoration: none;
@@ -38,6 +40,7 @@ h1  {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bold;
+    line-height: 1.1;
 }
 h2  {
     text-align: center;
@@ -51,15 +54,25 @@ img {
 }
 button  {
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #fff;
     border: 1px solid transparent;
     border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: all 300ms ease;
 }
-.headerArea {
+button:hover    {
+    background-color: #FFF;
+    color: #3882F6;
+}
+figure  {
+    margin: 0;
+}
+header {
     background-color: #1F2937;
     color: #FFF;
 }
-.headerContentArea  {
+.container  {
     max-width: 1200px;
     margin: auto;
 }
@@ -68,20 +81,25 @@ button  {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 20px 0;
 }
 .menu   {
     display: flex;
     flex-direction: row;
 }
 .menu li    {
-    padding: 20px;
+    margin-right: 40px;
 }
-.headerContent  {
+.menu li:last-child {
+    margin-right: 0;
+}
+.mainBox    {
+    background-color: #1F2937;
+}
+.Content  {
     display: flex;
     flex-direction: row;
-    padding: 40px;
-    margin: 20px auto;
+    padding: 40px 0 80px;
     align-items: center;
 }
 .mainContent    {
@@ -110,23 +128,34 @@ button  {
 .boxInfo    {
     margin: 20px;
 }
-.boxA   {
+.informations   {
     background-color: #E5E7EB;
+}
+.quoteArea {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.boxA   {
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
-    text-align: center;
-    padding: 40px;
-
+    text-align: left;
+    padding: 60px;
+    padding-bottom: 0;
+    margin: 0;
 }
-.boxA p {
-    max-width: 1000px;
-    margin: 0 auto;
+.sign   {
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 60px;
 }
 .boxB   {
     background-color: #3882F6;
     margin: 60px auto;
-    padding: 20px;
+    padding: 20px 120px;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
