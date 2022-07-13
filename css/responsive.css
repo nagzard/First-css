@@ -1,0 +1,150 @@
+*   {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-LightItalic.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+body    {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+a   {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    transition: all 300ms ease;
+}
+a:hover {
+    color: #b6cbec;
+}
+li  {
+    list-style: none;
+}
+h1  {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+h2  {
+    text-align: center;
+}
+h4  {
+    color: #F9FAF8;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+button  {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.headerArea {
+    background-color: #1F2937;
+    color: #FFF;
+}
+.headerContentArea  {
+    max-width: 1200px;
+    margin: auto;
+}
+.headerTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.menu   {
+    display: flex;
+    flex-direction: row;
+}
+.menu li    {
+    padding: 20px;
+}
+.headerContent  {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin: 20px auto;
+    align-items: center;
+}
+.mainContent    {
+    width: 40%;
+}
+.mainContent p  {
+    color: #E5E7EB;
+}
+.asideContent   {
+    width: 60%;
+    padding-left: 80px;
+}
+.asideContent img   {
+    height: 250px;
+    object-fit: cover;
+}
+.contentArea    {
+    margin: 40px auto;
+}
+.illustrations  {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 60px auto;
+}
+.boxInfo    {
+    margin: 20px;
+}
+.boxA   {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: center;
+    padding: 40px;
+
+}
+.boxA p {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.boxB   {
+    background-color: #3882F6;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+}
+.boxContent p   {
+    color: #E5E7EB;
+}
+.boxButton   {
+    border-color: #F9FAF8;
+    min-width: 120px;
+}
+footer  {
+    background-color: #1F2937;
+    text-align: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 15px;
+}
